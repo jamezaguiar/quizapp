@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './assets/logo-light-theme.svg';
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <>
-      <h1>Quizapp</h1>
-      <img src={logo} style={{width: 1000}} alt="Logo"/>
-    </>
-  );
-}
+import Routes from './routes';
+
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+);
 
 export default App;
