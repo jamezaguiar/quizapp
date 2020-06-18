@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import Header from '../../components/Header';
 
 import logo from '../../assets/question-logo.svg';
@@ -19,7 +21,7 @@ const Dashboard: React.FC = () => (
           <span>- Provérbios 10:14a</span>
         </Verse>
         <div>
-          <button type="button">Iniciar Quiz</button>
+          <Link to="/themes">Iniciar Quiz</Link>
           <span>Ver resultados anteriores</span>
         </div>
       </VerseContainer>

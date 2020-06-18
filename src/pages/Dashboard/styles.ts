@@ -23,13 +23,18 @@ export const VerseContainer = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    button {
+    a {
+      display: flex;
       width: 175px;
       height: 50px;
+
+      justify-content: center;
+      align-items: center;
 
       font-family: 'Josefin Sans', Roboto, sans-serif;
       font-weight: 400;
       font-size: 16pt;
+      text-decoration: none;
 
       border: none;
       border-radius: 4px;
