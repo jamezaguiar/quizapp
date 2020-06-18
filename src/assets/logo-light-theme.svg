@@ -5,7 +5,7 @@
 viewBox="0 0 1541 373"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <font id="FontID0" horiz-adv-x="696" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+  <font id="FontID0" horiz-adv-x="696" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
 	<font-face 
 		font-family="Josefin Sans">
 	</font-face>
@@ -20,13 +20,8 @@ viewBox="0 0 1541 373"
   <style type="text/css">
    <![CDATA[
     @font-face { font-family:"Josefin Sans";src:url("#FontID0") format(svg)}
-    .fil1 {fill:#373435}
-    .fil0 {fill:#1D3656}
-    .fil2 {fill:#031D44}
-    .fil3 {fill:#04395E}
-    .fil4 {fill:#72B01D}
-    .fil6 {fill:#F8333C}
-    .fil5 {fill:#F8F7F9}
+    .fil1 {fill:#D6DBD2}
+    .fil0 {fill:#DD0426}
     .fnt0 {font-weight:bold;font-size:379.81px;font-family:'Josefin Sans'}
    ]]>
   </style>
@@ -39,10 +34,5 @@ viewBox="0 0 1541 373"
   <g transform="matrix(1.00001 0 0 1 -789.446 101.412)">
    <text x="1110" y="186"  class="fil1 fnt0">uizapp</text>
   </g>
-  <rect class="fil2" x="34" y="-203" width="161" height="144"/>
-  <rect class="fil3" x="203" y="-203" width="161" height="144"/>
-  <rect class="fil4" x="373" y="-203" width="161" height="144"/>
-  <rect class="fil5" x="542" y="-203" width="161" height="144"/>
-  <rect class="fil6" x="711" y="-203" width="161" height="144"/>
  </g>
 </svg>
