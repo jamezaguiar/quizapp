@@ -2,11 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 /**
  * COLOR PALLETE
- * #031D44
- * #04395E
- * #72B01D
- * #F8F7F9
- * #F8333C
+ * #F2F5EA
+ * #D6DBD2
+ * #050532
+ * #02020B
+ * #080708
+ * #DD0426
  */
 
 export default createGlobalStyle`
@@ -18,6 +19,12 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #f8f7f9;
+    background: #f2f5ea;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button {
+    cursor: pointer;
   }
 `;
